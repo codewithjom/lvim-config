@@ -48,10 +48,6 @@ lvim.plugins = {
   "renerocksai/telekasten.nvim",
   -- "renerocksai/calendar-vim",
   {
-    "neoclide/coc.nvim",
-    branch = "release"
-  },
-  {
     "saecki/crates.nvim",
     version = "v0.3.0",
     dependencies = { "nvim-lua/plenary.nvim" },

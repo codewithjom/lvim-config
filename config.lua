@@ -1,4 +1,4 @@
-reload "user.coc"
+-- reload "user.coc"
 reload "user.null-ls"
 reload "user.plugins"
 reload "user.options"
