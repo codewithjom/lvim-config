@@ -1,5 +1,6 @@
 -- Additional Plugins
 lvim.plugins = {
+  "navarasu/onedark.nvim",
   "Shatur/neovim-ayu",
   "olivercederborg/poimandres.nvim",
   "bluz71/vim-moonfly-colors",

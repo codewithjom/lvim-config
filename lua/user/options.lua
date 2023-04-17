@@ -1,5 +1,4 @@
-lvim.colorscheme = "gruvbox"
--- lvim.colorscheme = "poimandres"
+lvim.colorscheme = "onedark"
 lvim.log.level = "warn"
 lvim.builtin.alpha.active = true
 lvim.lsp.diagnostics.float.focusable = true

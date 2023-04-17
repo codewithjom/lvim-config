@@ -1,3 +1,4 @@
+reload "user.onedark"
 -- reload "user.coc"
 reload "user.null-ls"
 reload "user.plugins"
