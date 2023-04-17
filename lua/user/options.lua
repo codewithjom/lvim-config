@@ -1,4 +1,4 @@
-lvim.colorscheme = "ayu-dark"
+lvim.colorscheme = "gruvbox"
 -- lvim.colorscheme = "poimandres"
 lvim.log.level = "warn"
 lvim.builtin.alpha.active = true
