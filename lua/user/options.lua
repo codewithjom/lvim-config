@@ -1,4 +1,4 @@
-lvim.colorscheme = "onedark"
+lvim.colorscheme = "ayu-dark"
 lvim.log.level = "warn"
 lvim.builtin.alpha.active = true
 lvim.lsp.diagnostics.float.focusable = true
