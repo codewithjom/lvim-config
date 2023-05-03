@@ -1,10 +1,11 @@
 -- Additional Plugins
 lvim.plugins = {
-  "navarasu/onedark.nvim",
   "Shatur/neovim-ayu",
   "olivercederborg/poimandres.nvim",
+  "AckslD/swenv.nvim",
   "bluz71/vim-moonfly-colors",
   "ellisonleao/gruvbox.nvim",
+  "lunarvim/onedarker.nvim",
   "LunarVim/synthwave84.nvim",
   "roobert/tailwindcss-colorizer-cmp.nvim",
   "lunarvim/github.nvim",
@@ -94,7 +95,9 @@ lvim.plugins = {
     event = "InsertEnter",
     build = "./install.sh",
   },
-  -- "MunifTanjim/nui.nvim",
+
+  "MunifTanjim/nui.nvim",
+  "Bryley/neoai.nvim",
   -- {
   --   "folke/noice.nvim",
   --   event = "VimEnter",

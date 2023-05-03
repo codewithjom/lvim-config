@@ -24,19 +24,9 @@ lvim.keys.term_mode = { ["<C-l>"] = false }
 --   border = "rounded",
 --   winhighlight = "NormalFloat:Pmenu,NormalFloat:Pmenu,CursorLine:PmenuSel,Search:None",
 -- }
--- lvim.builtin.cmp.formatting.source_names = {
---   nvim_lsp = "",
---   emoji = "",
---   path = "",
---   calc = "",
---   cmp_tabnine = "",
---   vsnip = "",
---   luasnip = "",
---   buffer = "",
---   tmux = "",
---   copilot = "",
---   treesitter = "",
--- }
+
+lvim.builtin.cmp.formatting.source_names = {}
+
 -- lvim.builtin.cmp.formatting = {
 --     format = require("tailwindcss-colorizer-cmp").formatter
 -- }
@@ -115,9 +105,9 @@ vim.filetype.add {
 }
 
 lvim.builtin.nvimtree.setup.view.mappings.list = {
-  { key = { "l", "<CR>", "o" }, action = "edit", mode = "n" },
-  { key = "h", action = "close_node" },
-  { key = "v", action = "vsplit" },
-  { key = "<C-k>", action = "" },
-  { key = "C", action = "cd" },
+  { key = { "l", "<CR>", "o" }, action = "edit",      mode = "n" },
+  { key = "h",                  action = "close_node" },
+  { key = "v",                  action = "vsplit" },
+  { key = "<C-k>",              action = "" },
+  { key = "C",                  action = "cd" },
 }
