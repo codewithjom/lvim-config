@@ -1,4 +1,4 @@
-lvim.colorscheme = "ayu-dark"
+lvim.colorscheme = "moonfly"
 lvim.log.level = "warn"
 lvim.builtin.alpha.active = true
 lvim.lsp.diagnostics.float.focusable = true

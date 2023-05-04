@@ -1,5 +1,6 @@
 -- Additional Plugins
 lvim.plugins = {
+  "nvim-tree/nvim-web-devicons",
   "Shatur/neovim-ayu",
   "olivercederborg/poimandres.nvim",
   "AckslD/swenv.nvim",
