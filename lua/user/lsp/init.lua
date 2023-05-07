@@ -4,6 +4,7 @@ vim.list_extend(lvim.lsp.automatic_configuration.skipped_servers, { "jdtls" })
 
 local formatters = require "lvim.lsp.null-ls.formatters"
 formatters.setup {
+  { command = "phpcsfixer", filetypes = { "php" } },
   { command = "stylua", filetypes = { "lua" } },
   { command = "shfmt", filetypes = { "sh", "zsh", "bash" } },
   {
