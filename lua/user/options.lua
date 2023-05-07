@@ -1,4 +1,5 @@
-lvim.colorscheme = "moonfly"
+lvim.colorscheme = "tokyonight-night"
+-- vim.g.tokyonight_style = "night"
 lvim.log.level = "warn"
 lvim.format_on_save = true
 lvim.builtin.alpha.active = false
@@ -106,9 +107,9 @@ vim.filetype.add {
 }
 
 lvim.builtin.nvimtree.setup.view.mappings.list = {
-  { key = { "l", "<CR>", "o" }, action = "edit",      mode = "n" },
-  { key = "h",                  action = "close_node" },
-  { key = "v",                  action = "vsplit" },
-  { key = "<C-k>",              action = "" },
-  { key = "C",                  action = "cd" },
+  { key = { "l", "<CR>", "o" }, action = "edit", mode = "n" },
+  { key = "h", action = "close_node" },
+  { key = "v", action = "vsplit" },
+  { key = "<C-k>", action = "" },
+  { key = "C", action = "cd" },
 }

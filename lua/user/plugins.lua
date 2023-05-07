@@ -51,6 +51,10 @@ lvim.plugins = {
   "renerocksai/telekasten.nvim",
   -- "renerocksai/calendar-vim",
   {
+    "folke/tokyonight.nvim",
+    branch = "main",
+  },
+  {
     "saecki/crates.nvim",
     version = "v0.3.0",
     dependencies = { "nvim-lua/plenary.nvim" },
