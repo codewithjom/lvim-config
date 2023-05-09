@@ -1,4 +1,4 @@
-vim.cmd "colorscheme onedarker"
+vim.cmd "colorscheme onedark"
 -- lvim.colorscheme = "kanagawa-dragon"
 -- vim.g.tokyonight_style = "night"
 lvim.log.level = "warn"

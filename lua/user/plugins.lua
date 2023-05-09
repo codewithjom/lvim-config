@@ -1,5 +1,6 @@
 -- Additional Plugins
 lvim.plugins = {
+  "navarasu/onedark.nvim",
   "rebelot/kanagawa.nvim",
   "nvim-tree/nvim-web-devicons",
   "Shatur/neovim-ayu",
