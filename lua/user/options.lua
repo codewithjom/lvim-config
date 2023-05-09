@@ -1,4 +1,5 @@
-lvim.colorscheme = "kanagawa-dragon"
+vim.cmd "colorscheme onedarker"
+-- lvim.colorscheme = "kanagawa-dragon"
 -- vim.g.tokyonight_style = "night"
 lvim.log.level = "warn"
 lvim.format_on_save = true
