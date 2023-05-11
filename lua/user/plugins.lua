@@ -1,5 +1,6 @@
 -- Additional Plugins
 lvim.plugins = {
+  "sainnhe/gruvbox-material",
   "navarasu/onedark.nvim",
   "rebelot/kanagawa.nvim",
   "nvim-tree/nvim-web-devicons",
