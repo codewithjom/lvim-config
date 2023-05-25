@@ -25,7 +25,7 @@ reload "user.colorizer"
 reload "user.lualine"
 reload "user.scrollbar"
 -- -- reload "user.zk"
-reload "user.copilot"
+-- reload "user.copilot"
 reload "user.chatgpt"
 reload "user.whichkey"
 reload "user.neoai"
@@ -38,5 +38,3 @@ lvim.builtin.which_key.mappings["P"] = {
   i = { "<cmd>lua require('swenv.api').pick_venv()<cr>", "Pick Env" },
   d = { "<cmd>lua require('swenv.api').get_current_venv()<cr>", "Show Env" },
 }
-
-
