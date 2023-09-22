@@ -1,5 +1,7 @@
 -- Additional Plugins
 lvim.plugins = {
+  "catppuccin/nvim",
+  as = "catppuccin",
   "sainnhe/gruvbox-material",
   "navarasu/onedark.nvim",
   "rebelot/kanagawa.nvim",

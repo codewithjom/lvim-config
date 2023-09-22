@@ -1,4 +1,4 @@
-lvim.colorscheme = "onedark"
+lvim.colorscheme = "catppuccin"
 -- vim.g.tokyonight_style = "night"
 lvim.log.level = "warn"
 lvim.format_on_save = true
