@@ -15,13 +15,11 @@ lvim.plugins = {
   "LunarVim/synthwave84.nvim",
   "roobert/tailwindcss-colorizer-cmp.nvim",
   "lunarvim/github.nvim",
-  "nvim-treesitter/playground",
-  "nvim-treesitter/nvim-treesitter-textobjects",
+  -- "nvim-treesitter-textobjects",
   -- "christianchiarulli/nvim-ts-rainbow",
   "mfussenegger/nvim-jdtls",
   -- "karb94/neoscroll.nvim",
   "opalmay/vim-smoothie",
-  { "j-hui/fidget.nvim",                 tag = "legacy" },
   "christianchiarulli/nvim-ts-autotag",
   "kylechui/nvim-surround",
   "christianchiarulli/harpoon",
@@ -55,6 +53,15 @@ lvim.plugins = {
   "petertriho/nvim-scrollbar",
   "renerocksai/telekasten.nvim",
   -- "renerocksai/calendar-vim",
+  {
+    "nvim-treesitter",
+    branch = "master",
+    commit = "f2778bd1a28b74adf5b1aa51aa57da85adfa3d16"
+  },
+  {
+    "j-hui/fidget.nvim",
+    tag = "legacy"
+  },
   {
     "folke/tokyonight.nvim",
     branch = "main",
