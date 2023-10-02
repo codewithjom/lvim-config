@@ -21,7 +21,7 @@ lvim.plugins = {
   "mfussenegger/nvim-jdtls",
   -- "karb94/neoscroll.nvim",
   "opalmay/vim-smoothie",
-  "j-hui/fidget.nvim",
+  { "j-hui/fidget.nvim",                 tag = "legacy" },
   "christianchiarulli/nvim-ts-autotag",
   "kylechui/nvim-surround",
   "christianchiarulli/harpoon",
@@ -104,6 +104,13 @@ lvim.plugins = {
     "tzachar/cmp-tabnine",
     event = "InsertEnter",
     build = "./install.sh",
+  },
+  {
+    'akinsho/flutter-tools.nvim',
+    dependencies = {
+      'nvim-lua/plenary.nvim',
+      'stevearc/dressing.nvim', -- optional for vim.ui.select
+    },
   },
 
   "MunifTanjim/nui.nvim",
